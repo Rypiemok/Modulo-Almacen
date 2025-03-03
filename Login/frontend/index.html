@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almacen</title>
+<script defer src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/frontend/Imagenes/logo.ico">
+</head>
+<body>
+
+    <header>    
+        <section >
+                <div  class="logo">
+        
+                   <a href="#"> <img src="./Imagenes/logo.png"></a>
+        
+             
+        
+        
+        
+                    <h2>Productos en stock</h2>
+        
+                </div>
+                </section>
+            </header>        
+    
+
+   
+<center>
+    <form id="formproductos">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+        <label for="descripcion">Descripción:</label>
+        <input type="text" id="descripcion" required>
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" required>
+        <button type="submit">Agregar Producto</button>
+    </form>
+</center>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Descripción</th>
+                <th>Cantidad</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody id="tablaProductos">
+            <!-- Aquí se cargarán los productos dinámicamente -->
+        </tbody>
+    </table>
+
+
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid greenyellow;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #2a475E;
+}
+button {
+    margin: 15px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+.btn-editar {
+    background-color: #f0ad4e;
+    color: white;
+}
+.btn-eliminar {
+    background-color: #d9534f;
+    color: white;
+}
+body {
+
+    background-color: #1b2838;
+}
+
+h2 {
+color: greenyellow;
+
+}
+
+th {
+    color: greenyellow;
+}
+
+label {
+
+    color: greenyellow;
+}
+
+
+header {
+
+    display: flex;
+
+    min-height: 5px;
+
+    justify-content: space-between;
+
+    background-color: #2a475E;
+
+    align-items: center;
+
+    padding: 5px;
+
+}
+.logo img {
+
+    display: flex;
+
+    margin: 0%;
+
+    height: 84px;
+
+    margin-right: 0px;
+    
+    position: relative;
+
+}
+
+.logo h2{
+    display: flex;
+
+    font-size: 50px;
+
+    margin: 5px;
+
+    color: #acd550;
+
+    height: 5px;
+
+    position: relative;
+
+    left: 150px;
+
+    bottom: 75px;
+
+
+}
